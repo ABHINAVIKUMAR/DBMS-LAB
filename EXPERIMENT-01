@@ -1,0 +1,59 @@
+# Experiment 01 – ER Diagram
+
+## Aim
+
+Design an **ER (Entity-Relationship) Diagram** for an Indian e-commerce platform with the following entities:
+
+* Customer
+* Product
+* Order Item
+* Seller
+* Category
+* Payment
+* Delivery
+* Address
+
+The ER diagram should specify **primary keys, composite attributes, multi-valued attributes, weak entities, specialization of Product, and participation constraints**.
+
+## ER Diagram Components
+
+| No. | Component                | Representation                   |
+| --- | ------------------------ | -------------------------------- |
+| 1   | Strong Entity            | Single Rectangle                 |
+| 2   | Weak Entity              | Double Rectangle                 |
+| 3   | Attribute                | Oval                             |
+| 4   | Multi-valued Attribute   | Double Oval                      |
+| 5   | Composite Attribute      | Oval connected to sub-attributes |
+| 6   | Derived Attribute        | Dashed Oval                      |
+| 7   | Relationship             | Diamond                          |
+| 8   | Identifying Relationship | Double Diamond                   |
+| 9   | Partial Participation    | Single Line                      |
+| 10  | Total Participation      | Double Line                      |
+| 11  | Cardinality              | 1, N, M                          |
+
+## Entities
+
+The ER diagram contains:
+
+* **Customer**
+* **Product**
+* **Order Item** – represented as a weak entity where appropriate
+* **Seller**
+* **Category**
+* **Payment**
+* **Delivery**
+* **Address**
+
+## Key Concepts Used
+
+* **Primary Key:** Uniquely identifies each entity.
+* **Composite Attribute:** An attribute divided into smaller sub-attributes, such as Address.
+* **Multi-valued Attribute:** An attribute that can have multiple values.
+* **Weak Entity:** An entity that depends on another entity for its identification.
+* **Specialization:** Product is specialized into different product types.
+* **Participation Constraint:** Shows whether participation in a relationship is partial or total.
+* **Cardinality:** Defines the relationship between entities, such as **1:1, 1:N, and M:N**.
+
+## Result
+
+An ER diagram for the Indian e-commerce platform was designed using standard ER-model symbols and includes entities, attributes, relationships, keys, weak entity representation, specialization, cardinality, and participation constraints.
