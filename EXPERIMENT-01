@@ -44,6 +44,8 @@ The ER diagram contains:
 * **Delivery**
 * **Address**
 
+![ER Diagram](./DBMS%20Assignment-1.drawio%20(1).png)
+
 ## Key Concepts Used
 
 * **Primary Key:** Uniquely identifies each entity.
