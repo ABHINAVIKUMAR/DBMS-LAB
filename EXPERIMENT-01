@@ -1,6 +1,7 @@
 # Experiment 01 – ER Diagram
 
 ## Aim
+Design an ER diagram for an indian e-commerce plaform with entites Cutomers, Product, Order-Item, Seller, Caterory, Payment, Delivery, Address. Specify primary keys, Composite and multi-valued attributes, Weak entites, Specialization of product, and Paticipation Constraints.
 
 Design an **ER (Entity-Relationship) Diagram** for an Indian e-commerce platform with the following entities:
 
