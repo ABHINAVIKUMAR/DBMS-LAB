@@ -1,0 +1,89 @@
+# Experiment - 02
+
+## Aim
+
+Convert the ER diagram into a relational schema. Write complete MySQL `CREATE TABLE` statements with:
+
+- Primary Key
+- Foreign Key
+- NOT NULL
+- UNIQUE
+- ON DELETE CASCADE
+- ON DELETE SET NULL
+
+Insert sample data and demonstrate referential integrity.
+
+---
+
+## Relational Schema
+
+### Student
+
+- `Student_id` — Primary Key
+- `Name`
+- `Email` — Unique
+- `Dept_id` — Foreign Key
+
+### Department
+
+- `Dept_id` — Primary Key
+- `Dept_name` — Unique
+
+### Course
+
+- `Course_id` — Primary Key
+- `Course_name`
+- `Credits`
+
+### Enrollment
+
+- `Student_id` — Foreign Key
+- `Course_id` — Foreign Key
+- `Enroll_date`
+- Composite Primary Key: (`Student_id`, `Course_id`)
+
+---
+
+# SQL Code
+
+```sql
+CREATE DATABASE College;
+
+USE College;
+
+CREATE TABLE Department (
+    Dept_id INT PRIMARY KEY,
+    Dept_name VARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE Student (
+    Student_id INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    Dept_id INT,
+    FOREIGN KEY (Dept_id)
+        REFERENCES Department(Dept_id)
+        ON DELETE SET NULL
+);
+
+CREATE TABLE Course (
+    Course_id INT PRIMARY KEY,
+    Course_name VARCHAR(100) NOT NULL,
+    Credits INT NOT NULL
+);
+
+CREATE TABLE Enrollment (
+    Student_id INT,
+    Course_id INT,
+    Enroll_date DATE NOT NULL,
+
+    PRIMARY KEY (Student_id, Course_id),
+
+    FOREIGN KEY (Student_id)
+        REFERENCES Student(Student_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (Course_id)
+        REFERENCES Course(Course_id)
+        ON DELETE CASCADE
+);
