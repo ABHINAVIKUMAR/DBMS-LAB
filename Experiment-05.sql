@@ -1,3 +1,7 @@
+# Experiment 05
+
+## Aim
+--To create SQL views for department salary summary and employee hierarchy, test the updatability of views, and implement a recursive CTE to display reporting chains. 
 CREATE TABLE IF NOT EXISTS Department (
     Dept_ID INT PRIMARY KEY,
     Dept_Name VARCHAR(100) NOT NULL
