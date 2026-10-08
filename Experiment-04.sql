@@ -1,3 +1,9 @@
+# Experiment 04
+
+## Aim
+--Using the Employee schema, write queries with INNER JOIN, LEFT JOIN, selfjoin, 3-way join, correlated subqueries, EXISTS, and simulated INTERSECT and EXCEPT. Compare execution plans using EXPLAIN.
+
+    
 CREATE TABLE Department (
     dept_id INT PRIMARY KEY,
     dept_name VARCHAR(50)
