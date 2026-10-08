@@ -1,30 +1,39 @@
 # DBMS Lab
 
-This repository contains all the experiments and practical work performed as part of the **Database Management System (DBMS) Lab**.
+This repository contains all the experiments, practical work, SQL programs, and outputs performed as part of the **Database Management System (DBMS) Lab**.
 
 ## 📚 Experiments
 
 | Experiment | Topic | Files |
 |------------|-------|-------|
-| Experiment 01 | ER Diagram | [ER-Diagram](./Experiment-01/) |
-| Experiment 02 | Relational Schema & SQL | [Experiment-02](./Experiment-02/) |
+| Experiment 01 | ER Diagram | [Experiment-01](./EXPERIMENT-01/) |
+| Experiment 02 | Relational Schema & SQL | [Experiment-02](./EXPERIMENT-02/) |
+| Experiment 03 | SQL Queries | [Experiment-03.sql](./Experiment-03.sql) |
+| Experiment 04 | SQL Queries | [Experiment-04.sql](./Experiment-04.sql) |
+| Experiment 05 | SQL Queries | [Experiment-05.sql](./Experiment-05.sql) |
 
----
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
 DBMS-LAB/
 │
-├── Experiment-01/
+├── EXPERIMENT-01/
 │   ├── ER-Diagram.png
 │   └── README.md
 │
-├── Experiment-02/
-│   ├── README.md
-│   ├── relational-schema.png
-│   ├── sql-code.png
-│   ├── insert-data.png
-│   └── output.png
+├── EXPERIMENT-01 ER DIAGRAM.png
+│
+├── EXPERIMENT-02/
+│
+├── EXPERIMENT-02.png
+│
+├── Experiment-03.png
+├── Experiment-03.sql
+│
+├── Experiment-04.png
+├── Experiment-04.sql
+│
+├── Experiment-05.png
+├── Experiment-05.sql
 │
 └── README.md
