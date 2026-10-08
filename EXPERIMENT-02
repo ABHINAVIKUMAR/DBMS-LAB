@@ -2,7 +2,7 @@
 
 ## Aim
 
--Convert the ER diagram into a relational schema. Write complete MySQL `CREATE TABLE` statements with:
+Convert the ER diagram into a relational schema. Write complete MySQL `CREATE TABLE` statements with:
 
 - Primary Key
 - Foreign Key
@@ -11,7 +11,7 @@
 - ON DELETE CASCADE
 - ON DELETE SET NULL
 
--Insert sample data and demonstrate referential integrity.
+Insert sample data and demonstrate referential integrity.
 
 ---
 
