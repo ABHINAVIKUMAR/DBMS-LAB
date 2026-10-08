@@ -1,3 +1,8 @@
+# Experiment 03
+
+## Aim
+/*To create an Employee-Department-Project database schema, insert sample data containing at least 30 employees, 5 departments and 8 projects and execute queries using Selection, Projection, Aggregate Functions, GROUP BY, HAVING, CASE Expressions, and ORDER BY.*/
+    
 CREATE DATABASE Company_DB;
 USE Company_DB;
 
